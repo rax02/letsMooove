@@ -1,0 +1,44 @@
+body {
+  -webkit-appearance: none;
+  border: none;
+  margin: none;
+  padding: none;
+}
+.floatRight {
+  float: right;
+}
+.pad8 {
+  padding: 8px;
+}
+.mar8 {
+  margin: 8px;
+}
+.formpad {
+  padding-top: 300px;
+  padding-bottom: 400px;
+}
+.grad {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 110, 0.958420868347339) 100%
+  );
+}
+.btn1 {
+  background: rgb(9, 121, 110);
+  color: white;
+}
+.shadow {
+  box-shadow: 5px, 5px, #888;
+}
+.bg-darkest {
+  background: rgb(3, 22, 24);
+}
+.back {
+  background-image: url("./ownerimg.jpg");
+}
+
+.formwidth {
+  width: 30%;
+}
