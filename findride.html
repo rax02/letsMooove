@@ -36,7 +36,7 @@
       <div class="row grad text-white pad8 shadow">
             <div class="col-sm-4"><a class="navbar-brand text-white" href="dashboard.html"><strong>letsMooove</strong></a>
             </li></div>
-            <div class="col-sm-2"><a class="nav-link text-white" href="findride.html">Find Ride</a></div>
+            <div class="col-sm-2"><a class="nav-link text-white shadow active" href="findride.html">Find Ride</a></div>
             <div class="col-sm-2"><a class="nav-link text-white" href="offerride.html">Offer Ride</a></div>
             <div class="col-sm-1"><a class="nav-link text-white" href="#">Link</a></div>
             <div class="col-sm-2"><a class="nav-link text-white" href="#">Hello Nagar</a></div>
@@ -68,11 +68,25 @@
 
 
           </div>
-            <div class="col-sm-8 mar8 pad8 shadow ">
-               
-              <div>  No upcoming rides</div>
-                <button class="btn btn1 shadow " ><a class="whitetext" href="findride.html">Search ride</a></button>
-                <button class="btn btn1 shadow " ><a class="whitetext" href="offerride.html">Offer ride</a></button>
+            <div class="col-sm-8 mar8 pad8 ">
+                <div class="shadow">
+                    <div class=" pad8 mar8">
+                        <form class="form-inline " action="/action_page.php">
+                          <input
+                            class="form-control mr-sm-2"
+                            type="text"
+                            placeholder="source"
+                          />
+                          <input
+                            class="form-control mr-sm-2"
+                            type="text"
+                            placeholder="destination"
+                          />
+                          <button class="btn btn1 shadow " type="submit">Search ride</button>
+                        </form>
+                      </div>
+                </div>
+                
                 
         </div>
       </div>

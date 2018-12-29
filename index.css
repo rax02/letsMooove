@@ -3,7 +3,9 @@ body {
   border: none;
   margin: none;
   padding: none;
+  font-family: "Raleway", sans-serif;
 }
+
 .floatRight {
   float: right;
 }
@@ -41,4 +43,7 @@ body {
 
 .formwidth {
   width: 30%;
+}
+.whitetext {
+  color: white;
 }
